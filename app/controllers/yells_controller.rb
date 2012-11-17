@@ -4,6 +4,7 @@ class YellsController < ApplicationController
   end
 
   def show
+    @meta_og_image = @yell.image
   end
 
   private
