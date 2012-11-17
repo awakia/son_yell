@@ -9,6 +9,42 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- #= require_yell_bootstrap
  *= require_tree .
  */
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+ul#yales {
+  list-style: none;
+}
+
+ul#yales li {
+  display: inline;
+}
+
+ul#yales li ul {
+  height: 50px;
+  margin: 0;
+}
+
+ul#yales li ul li {
+  height: inherit;
+}
+
+ul#yales li ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  p {
+    color: #6A6E71;
+  }
+}
