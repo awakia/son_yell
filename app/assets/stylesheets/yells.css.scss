@@ -1,3 +1,34 @@
 // Place all the styles related to the yells controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+ul#yales {
+  list-style: none;
+}
+
+ul#yales li {
+  display: inline;
+}
+
+ul#yales li ul {
+  height: 50px;
+  margin: 0;
+}
+
+ul#yales li ul li {
+  height: inherit;
+}
+
+ul#yales li ul li img {
+  width: 30px;
+  height: 30px;
+}
