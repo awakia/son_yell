@@ -1,12 +1,11 @@
 <div class="container-fluid">
   <div class="well">
     <center>
-      <h3>がんばれー！</h3>
-      <img src="assets/sonchan.gif" /><br><br>
+      <h3><%= @yell.title %></h3>
+      <img src="<%= image_path(@yell.image) %>" /><br><br>
       <audio controls autoplay preload="auto">
-        <source src="assets/luffy.mp3" type="audio/mpeg">
+        <source src="<%= asset_path(@yell.audio) %>" type="audio/mpeg">
       </audio>
     </center>
   </div>
-  <a>←ほかの人を応援したい！</a>
 </div>
