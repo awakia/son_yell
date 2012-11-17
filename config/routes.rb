@@ -1,4 +1,8 @@
 SonYell::Application.routes.draw do
+  get "yells/index"
+
+  get "yells/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
