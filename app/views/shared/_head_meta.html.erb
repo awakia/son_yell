@@ -2,7 +2,7 @@
 <% meta_og_title = @meta_og_title ? @meta_og_title : meta_title %>
 <% meta_description = @meta_description ? @meta_description : "スペシャルオリンピックス日本による大切な誰かを応援するサイトです" %>
 <% meta_og_description = @meta_og_description ? @meta_og_description : meta_description %>
-<% meta_og_image = @meta_og_image ? @meta_og_image : image_url("yell.png") %>
+<% meta_og_image = @meta_og_image ? image_url(@meta_og_image) : image_url("yell.png") %>
 
 <%= content_tag :title, meta_title %>
 
