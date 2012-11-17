@@ -24,6 +24,27 @@
       }
       
     </style>
+    <script>
+    <!--
+    $(function(){
+    /*
+        		ZeroClipboard.setMoviePath("js/ZeroClipboard10.swf");
+*/
+      console.log("hello world");
+      $('input').bind('mouseup',function(){
+        $(this).select();
+  /*      
+        		clip = new ZeroClipboard.Client();
+		        clip.setHandCursor( true );
+        
+        			clip.setText($(this).val());
+        		  clip.glue('copy');
+    */    
+
+      });
+    });
+    -->
+    </script>
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -58,7 +79,7 @@
                 <ul>
                   <li><img src="assets/fukidasi_red.gif" alt="" /></li>
                   <li>がんばれ！</li>
-                  <li><input type="text" value="<%= app_url("/yell/1") %>" /></li>
+                  <li><input type="text" value="<%= app_url("/yells/1") %>" /></li>
                   <!-- <li><button class="copy">コピー</button></li> -->
                 </ul>
               <li>
@@ -66,7 +87,7 @@
                 <ul>
                   <li><img src="assets/fukidasi_green.gif" alt="" /></li>
                   <li>ファイト！</li>
-                  <li><input type="text" value="<%= app_url("/yell/1") %>" /></li>
+                  <li><input type="text" value="<%= app_url("/yells/1") %>" /></li>
                   <!--<li><button class="copy">コピー</button></li>-->
                 </ul>
               <li>
@@ -74,7 +95,7 @@
                 <ul>
                   <li><img src="assets/fukidasi_orange.gif" alt="" /></li>
                   <li>よくやった！！</li>
-                  <li><input type="text" value="<%= app_url("/yell/1") %>" /></li>
+                  <li><input type="text" value="<%= app_url("/yells/1") %>" /></li>
                   <!--<li><button class="copy">コピー</button></li>-->
                 </ul>
               <li>
