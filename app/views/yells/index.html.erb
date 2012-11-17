@@ -30,7 +30,7 @@
         <div class="span9">
           <div class="hero-unit" style="background-image:url('assets/yell_back.png');background-position:right bottom;background-repeat:no-repeat;">
             <h1>ようこそ</h1>
-            <p>ようこそ！ SONちゃんのエールは、がんばる人たちを応援しています！</p>
+            <p>『SONちゃんのエール』は、がんばる人たちを応援しています！</p>
             <p>facebookでがんばっている人を<strong><ruby>応援して<rt>チアって</rt></ruby></strong>みませんか？</p>
             <!--<p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
           </div>
@@ -39,8 +39,8 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
               <li class="nav-header">スポンサー</li>
-              <li><a href="#">スペシャルオリンピックス日本</a></li>
-              <li><a href="#">エール募金</a></li>
+              <li><a href="http://www.son.or.jp/">スペシャルオリンピックス日本</a></li>
+              <li><a href="http://www.son.or.jp/bokin/">エール募金</a></li>
               <li class="nav-header">応援してる人</li>
               <li><a href="http://animo.aspota.jp/">有森裕子さん</a></li>
             </ul>
@@ -50,40 +50,40 @@
       </div>
             <div id="ybox" class="well">
             <h2>応援一覧</h2>
+            <p>
+            下の応援ボイスの中から使いたいものを選んで、facebookに貼り付けて友達を応援しよう！
+            </p>
             <ul id="yales">
               <li>
                 <ul>
-                  <li><img src="" alt="" /></li>
-                  <li>text</li>
-                  <li><input type="text" value="http://" /></li>
-                  <li><button class="copy">copy</button></li>
+                  <li><img src="assets/fukidasi_red.gif" alt="" /></li>
+                  <li>がんばれ！</li>
+                  <li><input type="text" value="<%= app_url("/yell/1") %>" /></li>
+                  <!-- <li><button class="copy">コピー</button></li> -->
                 </ul>
               <li>
               <li>
                 <ul>
-                  <li><img src="" alt="" /></li>
-                  <li>text</li>
-                  <li><input type="text" value="http://" /></li>
-                  <li><button class="copy">copy</button></li>
+                  <li><img src="assets/fukidasi_green.gif" alt="" /></li>
+                  <li>ファイト！</li>
+                  <li><input type="text" value="<%= app_url("/yell/1") %>" /></li>
+                  <!--<li><button class="copy">コピー</button></li>-->
                 </ul>
               <li>
               <li>
                 <ul>
-                  <li><img src="" alt="" /></li>
-                  <li>text</li>
-                  <li><input type="text" value="http://" /></li>
-                  <li><button class="copy">copy</button></li>
-                </ul>
-              <li>
-              <li>
-                <ul>
-                  <li><img src="" alt="" /></li>
-                  <li>text</li>
-                  <li><input type="text" value="http://" /></li>
-                  <li><button class="copy">copy</button></li>
+                  <li><img src="assets/fukidasi_orange.gif" alt="" /></li>
+                  <li>よくやった！！</li>
+                  <li><input type="text" value="<%= app_url("/yell/1") %>" /></li>
+                  <!--<li><button class="copy">コピー</button></li>-->
                 </ul>
               <li>
             </ul>
+            
+            <div class="alert alert-info">
+               <h4>またみにきてね！</h4>
+                応援メッセージは随時増やしていきます！
+            </div>
             </div>
 
           <div class="row-fluid thanks">
@@ -98,9 +98,10 @@
               <p>ほげほげほげほげ</p>
             </div><!--/span-->
             <div class="span4">
-              <h2>???? さん</h2>
+              <h2>孫正義さん</h2>
+              <img style="float:left;height:100px;width:auto;" src="assets/son.jpg">
               <p>ほげほげほげほげ</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
+              <p><a class="btn" href="http://twitter.com/masason">View details &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->
           
