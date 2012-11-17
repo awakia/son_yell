@@ -1,4 +1,6 @@
 SonYell::Application.routes.draw do
+  root to: "yells#index"
+
   resources :yells, only: [:index, :show]
 
   # The priority is based upon order of creation:
