@@ -8,6 +8,6 @@ class YellsController < ApplicationController
 
   private
   def setup
-    @yell = Yell.find(params[:id]) || Yell.find_by_name(params[:id])
+    @yell = Yell.find_by_name(params[:id]) || Yell.find(params[:id])
   end
 end
